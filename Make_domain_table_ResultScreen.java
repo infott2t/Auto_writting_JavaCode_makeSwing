@@ -64,7 +64,6 @@ public class Make_domain_table_ResultScreen extends JFrame {
                     "\n @Id //primary key field.\n" +
                     "@GeneratedValue(strategy = GenerationType.IDENTITY) //auto_increment.\n" +
                     "private Long "+v1+"Id;\n"+
-                    //"private Long "+v1+"\n"+
                     "\n"+
 
                     "private "+ resultValueStringAndLong2 + " "+v2+";\n"+
@@ -100,9 +99,129 @@ public class Make_domain_table_ResultScreen extends JFrame {
                     "@Builder\n"+
                     "public "+letterTableNameFirstBigClassName+"(\n"+
                     "  "+resultValueStringAndLong2+" "+v2+",\n"+
+                    "  "+resultValueStringAndLong3+" "+v3+",\n"+
+                    "  "+resultValueStringAndLong4+" "+v4+",\n"+
+                    "  "+resultValueStringAndLong5+" "+v5+",\n"+
+                    "  "+resultValueStringAndLong6+" "+v6+",\n"+
+                    "  "+resultValueStringAndLong7+" "+v7+",\n"+
+                    "  "+resultValueStringAndLong8+" "+v8+",\n"+
+                    "  "+resultValueStringAndLong9+" "+v9+",\n"+
+                    "  "+resultValueStringAndLong10+" "+v10+",\n"+
+                    "  "+resultValueStringAndLong11+" "+v11+",\n"+
+                    "  "+resultValueStringAndLong12+" "+v12+",\n"+
+                    "  "+resultValueStringAndLong13+" "+v13+",\n"+
+                    "  "+resultValueStringAndLong14+" "+v14+",\n"+
+                    "  "+resultValueStringAndLong15+" "+v15+",\n"+
+                    "  "+resultValueStringAndLong16+" "+v16+",\n"+
+                    "  "+resultValueStringAndLong17+" "+v17+",\n"+
+                    "  "+resultValueStringAndLong18+" "+v18+",\n"+
+                    "  "+resultValueStringAndLong19+" "+v19+",\n"+
+                    "  "+resultValueStringAndLong20+" "+v20+",\n"+
+                    "  "+resultValueStringAndLong21+" "+v21+",\n"+
+                    "  "+resultValueStringAndLong22+" "+v22+",\n"+
+                    "  "+resultValueStringAndLong23+" "+v23+",\n"+
+                    "  "+resultValueStringAndLong24+" "+v24+",\n"+
+                    "  "+resultValueStringAndLong25+" "+v25+",\n"+
+                    "  "+resultValueStringAndLong26+" "+v26+",\n"+
+                    "  "+resultValueStringAndLong27+" "+v27+",\n"+
+                    "  "+resultValueStringAndLong28+" "+v28+",\n"+
+                    "  "+resultValueStringAndLong29+" "+v29+",\n"+
+                    "  "+resultValueStringAndLong30+" "+v30+",\n"+
                                                                "){\n"+
+                        "this."+v2 +" = "+v2+";\n"+
+                        "this."+v3 +" = "+v3+";\n"+
+                        "this."+v4 +" = "+v4+";\n"+
+                        "this."+v5 +" = "+v5+";\n"+
+                        "this."+v6 +" = "+v6+";\n"+
+                        "this."+v7 +" = "+v7+";\n"+
+                        "this."+v8 +" = "+v8+";\n"+
+                        "this."+v9 +" = "+v9+";\n"+
+                        "this."+v10 +" = "+v10+";\n"+
+                        "this."+v11 +" = "+v11+";\n"+
+                        "this."+v12 +" = "+v12+";\n"+
+                        "this."+v13 +" = "+v13+";\n"+
+                        "this."+v14 +" = "+v14+";\n"+
+                        "this."+v15 +" = "+v15+";\n"+
+                        "this."+v16 +" = "+v16+";\n"+
+                        "this."+v17 +" = "+v17+";\n"+
+                        "this."+v18 +" = "+v18+";\n"+
+                        "this."+v19 +" = "+v19+";\n"+
+                        "this."+v20 +" = "+v20+";\n"+
+                        "this."+v21 +" = "+v21+";\n"+
+                        "this."+v22 +" = "+v22+";\n"+
+                        "this."+v23 +" = "+v23+";\n"+
+                        "this."+v24 +" = "+v24+";\n"+
+                        "this."+v25 +" = "+v25+";\n"+
+                        "this."+v26 +" = "+v26+";\n"+
+                        "this."+v27 +" = "+v27+";\n"+
+                        "this."+v28 +" = "+v28+";\n"+
+                        "this."+v29 +" = "+v29+";\n"+
+                        "this."+v30 +" = "+v30+";\n"+
+
                     "}\n"+
                     "\n"+
+                    "public void update("+
+                    "  "+resultValueStringAndLong2+" "+v2+",\n"+
+                    "  "+resultValueStringAndLong3+" "+v3+",\n"+
+                    "  "+resultValueStringAndLong4+" "+v4+",\n"+
+                    "  "+resultValueStringAndLong5+" "+v5+",\n"+
+                    "  "+resultValueStringAndLong6+" "+v6+",\n"+
+                    "  "+resultValueStringAndLong7+" "+v7+",\n"+
+                    "  "+resultValueStringAndLong8+" "+v8+",\n"+
+                    "  "+resultValueStringAndLong9+" "+v9+",\n"+
+                    "  "+resultValueStringAndLong10+" "+v10+",\n"+
+                    "  "+resultValueStringAndLong11+" "+v11+",\n"+
+                    "  "+resultValueStringAndLong12+" "+v12+",\n"+
+                    "  "+resultValueStringAndLong13+" "+v13+",\n"+
+                    "  "+resultValueStringAndLong14+" "+v14+",\n"+
+                    "  "+resultValueStringAndLong15+" "+v15+",\n"+
+                    "  "+resultValueStringAndLong16+" "+v16+",\n"+
+                    "  "+resultValueStringAndLong17+" "+v17+",\n"+
+                    "  "+resultValueStringAndLong18+" "+v18+",\n"+
+                    "  "+resultValueStringAndLong19+" "+v19+",\n"+
+                    "  "+resultValueStringAndLong20+" "+v20+",\n"+
+                    "  "+resultValueStringAndLong21+" "+v21+",\n"+
+                    "  "+resultValueStringAndLong22+" "+v22+",\n"+
+                    "  "+resultValueStringAndLong23+" "+v23+",\n"+
+                    "  "+resultValueStringAndLong24+" "+v24+",\n"+
+                    "  "+resultValueStringAndLong25+" "+v25+",\n"+
+                    "  "+resultValueStringAndLong26+" "+v26+",\n"+
+                    "  "+resultValueStringAndLong27+" "+v27+",\n"+
+                    "  "+resultValueStringAndLong28+" "+v28+",\n"+
+                    "  "+resultValueStringAndLong29+" "+v29+",\n"+
+                    "  "+resultValueStringAndLong30+" "+v30+",\n"+
+                    "){"+
+                    "this."+v2+" = "+v2+";\n"+
+                    "this."+v3+" = "+v3+";\n"+
+                    "this."+v4+" = "+v4+";\n"+
+                    "this."+v5+" = "+v5+";\n"+
+                    "this."+v6+" = "+v6+";\n"+
+                    "this."+v7+" = "+v7+";\n"+
+                    "this."+v8+" = "+v8+";\n"+
+                    "this."+v9+" = "+v9+";\n"+
+                    "this."+v10+" = "+v10+";\n"+
+                    "this."+v11+" = "+v11+";\n"+
+                    "this."+v12+" = "+v12+";\n"+
+                    "this."+v13+" = "+v13+";\n"+
+                    "this."+v14+" = "+v14+";\n"+
+                    "this."+v15+" = "+v15+";\n"+
+                    "this."+v16+" = "+v16+";\n"+
+                    "this."+v17+" = "+v17+";\n"+
+                    "this."+v18+" = "+v18+";\n"+
+                    "this."+v19+" = "+v19+";\n"+
+                    "this."+v20+" = "+v20+";\n"+
+                    "this."+v21+" = "+v21+";\n"+
+                    "this."+v22+" = "+v22+";\n"+
+                    "this."+v23+" = "+v23+";\n"+
+                    "this."+v24+" = "+v24+";\n"+
+                    "this."+v25+" = "+v25+";\n"+
+                    "this."+v26+" = "+v26+";\n"+
+                    "this."+v27+" = "+v27+";\n"+
+                    "this."+v28+" = "+v28+";\n"+
+                    "this."+v29+" = "+v29+";\n"+
+                    "this."+v30+" = "+v30+";\n"+
+
+                "}\n}"
 
         );
 
