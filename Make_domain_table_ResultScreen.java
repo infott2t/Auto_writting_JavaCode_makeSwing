@@ -63,8 +63,8 @@ public class Make_domain_table_ResultScreen extends JFrame {
                     "public class "+letterTableNameFirstBigClassName+" extends BaseTimeEntity {"+
                     "\n @Id //primary key field.\n" +
                     "@GeneratedValue(strategy = GenerationType.IDENTITY) //auto_increment.\n" +
-                    //"private Long "+v1+"Id;\n"+
-                    "private Long "+v1+"\n"+
+                    "private Long "+v1+"Id;\n"+
+                    //"private Long "+v1+"\n"+
                     "\n"+
 
                     "private "+ resultValueStringAndLong2 + " "+v2+";\n"+
