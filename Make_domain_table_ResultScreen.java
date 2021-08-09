@@ -29,7 +29,7 @@ public class Make_domain_table_ResultScreen extends JFrame {
         jp.add(btn);
         jp.add(scrolljta);
         setBounds(300,300,700,170);
-        setTitle("Domain_Table");
+        
         setVisible(true);
         setResizable(true);
         add(jp);
@@ -54,6 +54,7 @@ public class Make_domain_table_ResultScreen extends JFrame {
         Util util = new Util();
 
         letterTableNameFirstBigClassName = util.frontChangeCase(tableName);
+        setTitle("domain."+tableName+"."+letterTableNameFirstBigClassName+".java");
         //resultValueStringAndLong1
         if(resultValueStringAndLong2==null){System.out.println("long2, null...");}
         jta.setText("// Please, Table name. class name. Need first letter, Upper case. Then not bug. Possiible. \n"+
