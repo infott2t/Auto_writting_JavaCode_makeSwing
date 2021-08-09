@@ -39,7 +39,7 @@ public class Sys01 extends JFrame {
         setResizable(true);
         add(jp);
 
-        jta.setText("1. input\n\nNumber and possible, enter key.\n\n *Using programming, Spring boot(https://spring.io). Automation coding. \n2021-08-01. Writter, Hyeonil Choi.\n\n  Thank you.\n And How about this. Church. Jesus Christ. \nLet's go there. Thank you, using on. ");
+        jta.setText(" Let's safely using smartphones, etc.\n\n1. input\n\nNumber and possible, enter key.\n\n *Using programming, Spring boot(https://spring.io). Automation coding. \n2021-08-01. Writter, Hyeonil Choi.\n\nhttps://github.com/infott2t/Auto_writting_JavaCode_makeSwing,\n MIT License.\nThank you.\n \n How about this. Church. Jesus Christ. \nLet's go there. \nThank you, using on. ");
 
         jtf.addActionListener(new ActionListener() {
 
