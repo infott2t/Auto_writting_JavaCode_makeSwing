@@ -11,9 +11,9 @@ public class Make_service_domain_TableService_ResultScreen extends JFrame {
     JButton btn;
     JScrollPane scrolljta;
 
-    String reCodeTN_LFUC; // Recode. table name, letter first upper case (LFUC) ex)abc -> Abc.
+    String reCodeTN_LFUC; // Re Code. table name, letter first upper case (LFUC) ex)abc -> Abc.
 
-    String reCodeV1_LFUC; // Recode. Variable. Column name, letter first upper caseLFUC. ex) abc -> Abc.
+    String reCodeV1_LFUC; // Re Code. Variable. Column name, letter first upper case (LFUC) ex) abc -> Abc.
     String reCodeV2_LFUC;
     String reCodeV3_LFUC;
     String reCodeV4_LFUC;
