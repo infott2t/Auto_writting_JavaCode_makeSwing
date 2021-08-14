@@ -11,9 +11,9 @@ public class Make_service_domain_TableService_ResultScreen extends JFrame {
     JButton btn;
     JScrollPane scrolljta;
 
-    String reCodeTN_LFUC; // Re Code. table name, letter first upper case (LFUC) ex)abc -> Abc.
+    String reCodeTN_LFUC; // Recode. table name, letter first upper case (LFUC) ex)abc -> Abc.
 
-    String reCodeV1_LFUC; // Re Code. Variable. Column name, letter first upper case (LFUC) ex) abc -> Abc.
+    String reCodeV1_LFUC; // Recode. Variable. Column name, letter first upper caseLFUC. ex) abc -> Abc.
     String reCodeV2_LFUC;
     String reCodeV3_LFUC;
     String reCodeV4_LFUC;
@@ -149,7 +149,7 @@ public class Make_service_domain_TableService_ResultScreen extends JFrame {
         //reCodeV30_LFUC = v30;
 
 //ex, PostsService
-        jta.setText("// Please, Table name. class name. Need first letter, Upper case. Then not bug. Possiible. \n"+
+        jta.setText("// Please, Table name(camelcase and first letter lower case.).. Need first letter, Upper case. Then not bug. Possiible. \n"+
                         "//  " + reCodeTN_LFUC +"Service.java       File. Textting. \n"+
                         "// \n"+
                         "@RequiredArgsConstructor\n" +"@Service\n" +
@@ -226,4 +226,3 @@ public class Make_service_domain_TableService_ResultScreen extends JFrame {
 
     }
 }
-
