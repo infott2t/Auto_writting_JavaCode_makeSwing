@@ -1,4 +1,4 @@
-import javax.swing.*;
+ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -59,8 +59,9 @@ public class Make_domain_table_ResultScreen extends JFrame {
         if(resultValueStringAndLong2==null){System.out.println("long2, null...");}
         jta.setText("// Please, Table name(camelcase and first letter lower case.).. class name. Need first letter, Upper case. Then not bug. Possiible. \n"+
                     "//  " +letterTableNameFirstBigClassName+".java       File. Textting. \n"+
+                    "// import, javax.persistance.Entity, ...GenerationValue, ...GenerationType, ...Id. \n"+
                     "// \n"+
-                    "@Getter\n" +"@NoArgsConstructor\n" + "@Entity"+
+                    "@Getter\n" +"@NoArgsConstructor\n" + "@Entity\n"+
                     "public class "+letterTableNameFirstBigClassName+" extends BaseTimeEntity {"+
                     "\n @Id //primary key field.\n" +
                     "@GeneratedValue(strategy = GenerationType.IDENTITY) //auto_increment.\n" +
