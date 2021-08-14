@@ -281,7 +281,7 @@ public class VariScreen extends JFrame {
 
 
 
-        jtfEnterKey = new JTextField(10);
+        //jtfEnterKey = new JTextField(10);
 
 
 
@@ -289,7 +289,7 @@ public class VariScreen extends JFrame {
         btn = new JButton("Generate");
         jta = new JTextArea(15,30);
 
-        jtfEnterKey.setText("");
+        //jtfEnterKey.setText("");
 
 
         jp.add(aA1jl);
@@ -443,7 +443,7 @@ public class VariScreen extends JFrame {
         jp.add(aA30jrb2);
         jp.add(aA30jtf);
 
-        jp.add(jtfEnterKey);
+        //jp.add(jtfEnterKey);
         jp.add(btn);
         jp.add(jta);
         setBounds(100,100,870,700);
@@ -452,7 +452,7 @@ public class VariScreen extends JFrame {
         setResizable(true);
         add(jp);
 
-        jta.setText("Input variable. Fisrt, vari1. must Long. and have primary key. \n If null, not inputting. and 1~30. Strait input need. And, Generate. Button click~. \n\n *Using programming, Spring boot(https://spring.io). Automation coding. \n2021-08-01. Writter, Hyeonil Choi.\n\n  Thank you.\n And How about this. Church. Jesus Christ. \nLet's go there. Thank you, using on. ");
+        jta.setText("Input variable. Fisrt, vari1. must Long. and have primary key. \n If blink, have null value so, need erase that code. Thank you. and 1~30. Strait input need. And, Generate. Button click~. \n\n *Using programming, Spring boot(https://spring.io). Automation coding. \n2021-08-01. Writter, Hyeonil Choi.\n\n  Thank you.\n And How about this. Church. Jesus Christ. \nLet's go there. Thank you, using on. ");
         btn.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent arg0) {
