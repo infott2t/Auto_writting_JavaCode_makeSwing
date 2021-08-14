@@ -29,7 +29,7 @@ public class Make_domain_table_ResultScreen extends JFrame {
         jp.add(btn);
         jp.add(scrolljta);
         setBounds(300,300,700,170);
-        
+
         setVisible(true);
         setResizable(true);
         add(jp);
@@ -57,7 +57,7 @@ public class Make_domain_table_ResultScreen extends JFrame {
         setTitle("domain."+tableName+"."+letterTableNameFirstBigClassName+".java");
         //resultValueStringAndLong1
         if(resultValueStringAndLong2==null){System.out.println("long2, null...");}
-        jta.setText("// Please, Table name. class name. Need first letter, Upper case. Then not bug. Possiible. \n"+
+        jta.setText("// Please, Table name(camelcase and first letter lower case.).. class name. Need first letter, Upper case. Then not bug. Possiible. \n"+
                     "//  " +letterTableNameFirstBigClassName+".java       File. Textting. \n"+
                     "// \n"+
                     "@Getter\n" +"@NoArgsConstructor\n" + "@Entity"+
@@ -127,7 +127,7 @@ public class Make_domain_table_ResultScreen extends JFrame {
                     "  "+resultValueStringAndLong27+" "+v27+",\n"+
                     "  "+resultValueStringAndLong28+" "+v28+",\n"+
                     "  "+resultValueStringAndLong29+" "+v29+",\n"+
-                    "  "+resultValueStringAndLong30+" "+v30+",\n"+
+                    "  "+resultValueStringAndLong30+" "+v30+"\n"+
                                                                "){\n"+
                         "this."+v2 +" = "+v2+";\n"+
                         "this."+v3 +" = "+v3+";\n"+
@@ -190,7 +190,7 @@ public class Make_domain_table_ResultScreen extends JFrame {
                     "  "+resultValueStringAndLong27+" "+v27+",\n"+
                     "  "+resultValueStringAndLong28+" "+v28+",\n"+
                     "  "+resultValueStringAndLong29+" "+v29+",\n"+
-                    "  "+resultValueStringAndLong30+" "+v30+",\n"+
+                    "  "+resultValueStringAndLong30+" "+v30+"\n"+
                     "){"+
                     "this."+v2+" = "+v2+";\n"+
                     "this."+v3+" = "+v3+";\n"+
