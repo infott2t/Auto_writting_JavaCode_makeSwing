@@ -150,7 +150,7 @@ public class Make_domain_table_Repository_ResultScreen extends JFrame {
         //reCodeV30_LFUC = v30;
 
 //ex, PostsService
-        jta.setText("// Please, Table name(camelcase and first letter lower case.).. class name. Need first letter, Upper case. Then not bug. Possiible. \n"+
+        jta.setText("// Please, Table name(camelcase and first letter lower case.).. interface make need, file name, IDE tool in. Need first letter, Upper case. Then not bug. Possiible. \n"+
                 "//  " + reCodeTN_LFUC +"Repository.java       File. Textting. \n"+
                 "// \n"+
                 "public interface "+reCodeTN_LFUC+"Repository extends JpaRepository<"+reCodeTN_LFUC+",Long> {\n"+
