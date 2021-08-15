@@ -149,7 +149,7 @@ public class Make_service_domain_TableService_ResultScreen extends JFrame {
         //reCodeV30_LFUC = v30;
 
 //ex, PostsService
-        jta.setText("// Please, Table name(camelcase and first letter lower case.).. Need first letter, Upper case. Then not bug. Possiible. \n"+
+        jta.setText("// Please, Table name(camelcase and first letter lower case.).. Need first letter, Upper case. And requestDto.getnull(). That Thing. Need erase.  Then not bug. Possiible. \n"+
                         "//  " + reCodeTN_LFUC +"Service.java       File. Textting. \n"+
                         "// \n"+
                         "@RequiredArgsConstructor\n" +"@Service\n" +
