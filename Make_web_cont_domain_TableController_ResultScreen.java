@@ -165,7 +165,7 @@ public class Make_web_cont_domain_TableController_ResultScreen extends JFrame {
                 "           model.addAttribute(\"userName\", user.getName());\n"+
                 "       }\n"+
                 "       model.addAttribute(\""+tableName+"\", "+tableName+"Service.findAllDesc());\n"+
-                "       return \"tables/"+tableName+"/index;\"\n"+
+                "       return \"tables/"+tableName+"/index;\";\n"+
                 "   }\n"+
                 "\n"+
                 "\n"+
