@@ -157,7 +157,7 @@ public class Make_web_cont_domain_TableApiController_ResultScreen extends JFrame
                 "public class "+reCodeTN_LFUC+"ApiController {\n"+
                 "   private final "+reCodeTN_LFUC+"Service "+tableName+"Service;\n"+
                 "\n"+
-                "   @"+reCodeTN_LFUC+"Mapping(\"/api/v1/"+tableName+"\")"+
+                "   @PostMapping(\"/api/v1/"+tableName+"\")"+
                 "   public Long save(@RequestBody "+reCodeTN_LFUC+"SaveRequestDto requestDto){\n"+
                 "       return "+tableName+"Service.save(requestDto);\n"+
                 "   }\n"+
