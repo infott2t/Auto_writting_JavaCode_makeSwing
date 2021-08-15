@@ -447,7 +447,7 @@ public class VariScreen extends JFrame {
         jp.add(btn);
         jp.add(jta);
         setBounds(100,100,870,700);
-        setTitle("Control drive01");
+        setTitle("Control drive01"+" Table name, "+tableName);
         setVisible(true);
         setResizable(true);
         add(jp);
@@ -613,6 +613,69 @@ public class VariScreen extends JFrame {
                 if(radioLo30){resultValueStringAndLong30="Long";}
 
                   new Make_domain_table_ResultScreen(
+                        tableName,
+                        v1,
+                        v2,
+                        v3,
+                        v4,
+                        v5,
+                        v6,
+                        v7,
+                        v8,
+                        v9,
+                        v10,
+                        v11,
+                        v12,
+                        v13,
+                        v14,
+                        v15,
+                        v16,
+                        v17,
+                        v18,
+                        v19,
+                        v20,
+                        v21,
+                        v22,
+                        v23,
+                        v24,
+                        v25,
+                        v26,
+                        v27,
+                        v28,
+                        v29,
+                        v30,
+                        resultValueStringAndLong1,
+                        resultValueStringAndLong2,
+                        resultValueStringAndLong3,
+                        resultValueStringAndLong4,
+                        resultValueStringAndLong5,
+                        resultValueStringAndLong6,
+                        resultValueStringAndLong7,
+                        resultValueStringAndLong8,
+                        resultValueStringAndLong9,
+                        resultValueStringAndLong10,
+                        resultValueStringAndLong11,
+                        resultValueStringAndLong12,
+                        resultValueStringAndLong13,
+                        resultValueStringAndLong14,
+                        resultValueStringAndLong15,
+                        resultValueStringAndLong16,
+                        resultValueStringAndLong17,
+                        resultValueStringAndLong18,
+                        resultValueStringAndLong19,
+                        resultValueStringAndLong20,
+                        resultValueStringAndLong21,
+                        resultValueStringAndLong22,
+                        resultValueStringAndLong23,
+                        resultValueStringAndLong24,
+                        resultValueStringAndLong25,
+                        resultValueStringAndLong26,
+                        resultValueStringAndLong27,
+                        resultValueStringAndLong28,
+                        resultValueStringAndLong29,
+                        resultValueStringAndLong30
+                );
+                new Make_domain_table_Repository_ResultScreen(
                         tableName,
                         v1,
                         v2,
