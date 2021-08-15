@@ -452,7 +452,7 @@ public class VariScreen extends JFrame {
         setResizable(true);
         add(jp);
 
-        jta.setText("Input variable. Fisrt, vari1. must Long. and have primary key. \n If blink, have null value so, need erase that code. Thank you. and 1~30. Strait input need. And, Generate. Button click~. \n\n *Using programming, Spring boot(https://spring.io). Automation coding. \n2021-08-01. Writter, Hyeonil Choi.\n\n  Thank you.\n And How about this. Church. Jesus Christ. \nLet's go there. Thank you, using on. ");
+        jta.setText("Input variable. Fisrt, vari1. must Long. and have primary key.\n * Rule, first column, have Id, end position. Column1 name, maked that --> vari1+Id. \n And If blink, have null value so, need erase that code. Thank you. and 1~30. Strait input need. And, Generate. Button click~. \n\n *Using programming, Spring boot(https://spring.io). Automation coding. \n2021-08-01. Writter, Hyeonil Choi.\n\n  Thank you.\n And How about this. Church. Jesus Christ. \nLet's go there. Thank you, using on. ");
         btn.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent arg0) {
