@@ -83,7 +83,7 @@ public class Make_web_cont_domain_TableController_ResultScreen extends JFrame {
         //v1.
         Util util = new Util();
         reCodeTN_LFUC = util.frontChangeCase(tableName);
-        setTitle("web.controller."+tableName+"."+reCodeTN_LFUC+"ApiController.java File.");
+        setTitle("web.controller."+tableName+"."+reCodeTN_LFUC+"Controller.java File.");
 
         if(v1.equals("")){}else{reCodeV1_LFUC = util.frontChangeCase(v1);}
         if(v2.equals("")){}else{reCodeV2_LFUC = util.frontChangeCase(v2);}
