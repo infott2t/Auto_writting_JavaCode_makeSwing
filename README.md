@@ -5,14 +5,16 @@
 <p>작업기간. 2021년 8월 7일 ~. (8월 14일에 보니, 8days ago로 나오네요.)<p>
     <br/>
     <p>
-    2021년 8월 18일. 완성은 했습니다. 컨트롤러부분. 그 다음에는, view부분을 만들려고 해요. 이부분도 중복이라고 할 수 있죠~. 일단은 완성... 코드도 자세히 만들고 싶은데... 소스코드요. 실제 사용할 때에 폴더 안에 클래스들의 위치. forExampleSpringBootCRUD폴더입니다. 언제 시간있을 때에 작업해볼게요.  
+    2021년 8월 18일. 완성은 했습니다. 컨트롤러부분. 그 다음에는, view부분을 만들려고 해요. 이부분도 중복이라고 할 수 있죠~. 일단은 완성... 코드도 자세히 만들고 싶은데... 
+        소스코드요. 실제 사용할 때에 폴더 안에 클래스들의 위치. forExampleSpringBootCRUD폴더입니다. 언제 시간있을 때에 작업해볼게요.  
         
     그것도 해야되는 구나... BaseTimeEntity 클래스. forExampleSpringBootCRUD.src.main.java.org.example.domain.BaseTimeEntity.java 이렇게 만들어 놨습니다.
         
     auth부분이 있거든요. OAuth. 자동로그인기능.  . 
         forExampleSpringBootCRUD.src.main.java.org.example.config.auth. 해당 패키지에 존재하고... 여기에도 클래스가 꽤 있구요. 
         forExampleSpringBootCRUD.src.main.java.org.example.config.auth.dto. 이 패키지에는 OAuthAttributes 클래스와 SessionUser 클래스가 있습니다.
-        저는 책을 안보면 잘 모르는 부분이고 그렇군요. 언제 설명해 볼게요. 
+        저는 책을 안보면 잘 모르는 부분이고 그렇군요. 책을 보고, 공부하는 것을 추천합니다. 고정된 코드랄까. 그런 것 같아요. 언제 시간있을 때 만들어볼게요.
+        해당 책 정보, 링크걸어보네요. https://g.co/kgs/RtS4xV
         공부해보세요~. 
 </p>  
   <br/>
