@@ -1,7 +1,7 @@
 # Auto_writting_JavaCode_makeSwing
 
 <h3>스마트 기기. 안전하게 사용합시다. 좋은 습관을 만들어요.</h3>
-<h3>Let's safley use smartphones, etc. Let's make good traditioning toself. Thank you.</h3>
+<h3>Let's safely use smartphones, etc. Let's make good traditioning toself. Thank you.</h3>
 <br/><br/>
 <p>작업기간. 2021년 8월 7일 ~. (8월 14일에 보니, 8days ago로 나오네요.)<p>
     <br/>
