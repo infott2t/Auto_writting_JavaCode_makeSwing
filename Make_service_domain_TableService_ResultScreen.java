@@ -159,7 +159,7 @@ public class Make_service_domain_TableService_ResultScreen extends JFrame {
                         "@Transactional\n" +
                         "public Long save("+ reCodeTN_LFUC +"SaveRequestDto requestDto){\n"+
                         "\n"+
-                        "    return "+tableName+"Repository.save(requestDto.toEntity()).get"+v1+"Id();\n"+
+                        "    return "+tableName+"Repository.save(requestDto.toEntity()).get"+reCodeV1_LFUC+"Id();\n"+
                         "}\n"+
                         "\n"+
                         "@Transactional\n"+
