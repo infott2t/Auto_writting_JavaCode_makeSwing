@@ -209,7 +209,7 @@ public class Make_service_domain_TableService_ResultScreen extends JFrame {
                         "}\n"+
                         "\n"+
                         "public "+reCodeTN_LFUC+"ResponseDto findById(Long id) {\n"+
-                        "       "+reCodeTN_LFUC+" entity = "+tableName+"Respository.findById(id)\n"+
+                        "       "+reCodeTN_LFUC+" entity = "+tableName+"Repository.findById(id)\n"+
                         "                   .orElseThrow(()->new IllegalArgumentException(\"No finding that article. id=\"+id));\n"+
                         "\n"+
                         "       return new "+reCodeTN_LFUC+"ResponseDto(entity);\n"+
@@ -219,7 +219,7 @@ public class Make_service_domain_TableService_ResultScreen extends JFrame {
                         "public void delete (Long id) {\n"+
                         "       "+reCodeTN_LFUC+" "+tableName+" = "+tableName+"Repository.findById(id)\n"+
                                 ".orElseThrow(()-> new IllegalArgumentException(\"No finding that article. id=\"+id));\n"+
-                                tableName+"Respository.delete("+tableName+");\n"+
+                                tableName+"Repository.delete("+tableName+");\n"+
                         "}\n"+
                         "}"
                 );
