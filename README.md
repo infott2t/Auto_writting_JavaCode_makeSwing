@@ -10,15 +10,16 @@
 <p>자바 스윙 UI, 글자크기가 작은 것 같아서, https://github.com/infott2t/Auto_writting_JavaCode_makeSwing2 여기에 글자크기를 키우구요. 다시 만들고 있습니다. Auto_writting_JavaCode_makeSwing2. 프로젝트를 참조해주세요.
 </p>
 <br/>
-<p>2021년 8월 29일 일요일.</p>
+<h4>2021년 8월 29일 일요일.</h4>
 <p>OAuth2.0부분. 코드는 다 적었습니다. 그런데, application.properties파일, application-oauth.properties파일, application-real.properties파일, application-real-db.properties파일의 경우.. 나중에 또 올려볼게요. 암호를 가려야겠죠.
         일단 클래스로된 org.example.config. ..., 파일들은 다올려놨습니다. NAVER, Google의 OAuth2.0로그인이 되게하는 부분인데요. 그래서, org.example.domain.user.ROLE, User.java, UesrRepository. 이 세가지 파일과 관계가 있습니다. 이것도 올려볼게요.
         공부해보세요~. 
         교회. 다녀보세요. 하고 싶은 말이군요. 좋은 주말되세요. 감사합니다.
 </p>
 <br/>
-<p>
-    2021년 8월 18일. 완성은 했습니다. 컨트롤러부분. 그 다음에는, view부분을 만들려고 해요. 이부분도 중복이라고 할 수 있죠~. 일단은 완성... 코드도 자세히 만들고 싶은데... 
+
+<h4>2021년 8월 18일.</h4> 
+<p> 완성은 했습니다. 컨트롤러부분. 그 다음에는, view부분을 만들려고 해요. 이부분도 중복이라고 할 수 있죠~. 일단은 완성... 코드도 자세히 만들고 싶은데... 
         소스코드요. 실제 사용할 때에 폴더 안에 클래스들의 위치. forExampleSpringBootCRUD폴더입니다. 언제 시간있을 때에 작업해볼게요.  
         
     그것도 해야되는 구나... BaseTimeEntity 클래스. forExampleSpringBootCRUD.src.main.java.org.example.domain.BaseTimeEntity.java 이렇게 만들어 놨습니다.
@@ -30,7 +31,8 @@
         해당 책 정보, 링크걸어보네요. https://g.co/kgs/RtS4xV
         공부해보세요~. 
 </p>  
-  <br/>
+<br/>
+<h4>프로그램, 설명</h4>
 <p>자바, Spring Boot(https://spring.io/) 코드를 자동으로 쳐주는 프로그램입니다.
 
 
