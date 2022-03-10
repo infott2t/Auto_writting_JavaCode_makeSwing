@@ -3,7 +3,7 @@
 <h3>스마트 기기. 안전하게 사용합시다. 좋은 습관을 만들어요.</h3>
 <h3>Let's safely use smartphones, etc. Let's make good traditioning toself. Thank you.</h3>
 <br/><br/>
-<p>작업기간. 2021년 8월 7일 ~ 2022년 3월 10일.</p>
+<p>작업기간: 2021년 8월 7일 ~ 2022년 3월 10일.</p>
 
 <br/>
 <h4> 2022년 3월 10일 목요일. </h4>
@@ -32,7 +32,7 @@
         공부해보세요~. 
 </p>  
 <br/>
-<h4>프로그램, 설명</h4>
+<h4>Auto_writting_JavaCode_makeSwing 프로그램, 설명</h4>
 <p>자바, Spring Boot(https://spring.io/) 코드를 자동으로 쳐주는 프로그램입니다.
 
 
@@ -54,9 +54,6 @@
     
 인텔리J에서 셋팅 방법. Getting started~.
 '[프로그래밍] 인텔리제이에서 Java 프로젝트 만들기. 자바 UI. 시작방법. 자바 GUI. 스윙. 공부해보세요.'라는 글. https://blog.naver.com/tt2t2am1118/222476582615 
-
-
-아직 다 완성하지 않았는데... 이런 형태가 또 필요하신 분들이 계실것도 같아서... 도움이 되고 싶어서 올리네요. 버그도 있을 수 있겠구요. 시간이 있을때마다... 조금씩 만들어나가고 있습니다.
 
  
 </p>
