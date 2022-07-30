@@ -6,6 +6,13 @@
 <p>작업기간: 2021년 8월 7일 ~ 2022년 3월 10일.</p>
 
 <br/>
+<h4> 2022년 7월 30일 토요일. </h4>
+<p>파일로 출력하는 부분을 만들었습니다. 현재는 여기에서 만들어지고 있네요. 참조해보세요.<p>
+<a href="https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3">https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3</a>  
+</p>
+<br/>
+
+<br/>
 <h4> 2022년 3월 10일 목요일. </h4>
 <p>자바 스윙 UI, 글자크기가 작은 것 같아서, https://github.com/infott2t/Auto_writting_JavaCode_makeSwing2 여기에 글자크기를 키우구요. 다시 만들고 있습니다. 또, 파일명을 잘못적은 버그가 있습니다. 버그가 있는채로, 작업이 끝나는 군요. 하지만, 이어서 개발을 하고 있습니다.  Auto_writting_JavaCode_makeSwing2. 여기에서는 해당 버그를 찾아서 지우고 개발을 이어가고 있네요. Auto_writting_JavaCode_makeSwing2. 이 프로젝트를 참조해주세요.
 </p>
